@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+
+h1{
+    color: white;
+    background-color:dimgray;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+h2{
+    color: aliceblue;
+    font-family: 'Phudu', cursive;
+}
+.muñeca {
+    position: absolute;
+    left: 84%;
+    top: 40%;
+}
+h3{
+    font-family: 'Phudu', cursive;
+    color: ghostwhite;
+    font-size: 20;
+}
+
+button{
+    
+    font-weight: semibold;
+    font-size: 1rem;
+    color: #444;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc -.5rem -.5rem 1rem #fff;
+    position: absolute;
+    top: 11%;
+    left: 90%;
+
+
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+button:hover{
+    box-shadow: 0 0 40px #fff -.5rem -.5rem 1rem #ccc;
+}
+button:active{
+    box-shadow: inset .2rem .2rem 1rem #fff -.2rem -.5rem 1rem #ccc;
+}
